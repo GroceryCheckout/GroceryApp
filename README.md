@@ -1,8 +1,3 @@
-# GroceryApp
-GroceryApp
-Unit 8: Group Milestone - README Example
-===
-
 
 
 # GroceryApp
@@ -73,10 +68,7 @@ Optional:
 * Settings -> Toggle settings
 
 ## Wireframes
+
+**Example**
 <img src="https://i.imgur.com/9CrjH1K.jpg" width=800><br>
 
-### [BONUS] Digital Wireframes & Mockups
-<img src="https://i.imgur.com/lYHn37F.jpg" height=200>
-
-### [BONUS] Interactive Prototype
-<img src="https://i.imgur.com/AiKfE5g.gif" width=200>
