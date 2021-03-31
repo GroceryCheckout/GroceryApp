@@ -72,3 +72,57 @@ Optional:
 **Example**
 <img src="https://i.imgur.com/9CrjH1K.jpg" width=800><br>
 
+
+## Schema 
+### Models
+#### Store
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | storeId      | String   | unique id for the store (default field) |
+   | name          | String   | store name |
+   | image         | File     | photo of store |
+   | description   | String   | Store description |
+   | commentsCount | Number   | number of reviews for a store |
+   | rating        | Number   | store rating |
+   | timings       | DateTime | store timings |
+
+#### Grocery item 
+   
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | itemId        | String   | unique id for the grocery item (default field) |
+   | name          | String   | store name |
+   | image         | File     | photo of item |
+   | description   | String   | item description |
+   | quantity      | Number   | intended purchase quantity |
+   | discount      | String   | applicable discount  |
+
+
+  
+### Networking
+#### List of network requests by screen
+   - Home Feed Screen
+      - (Read/GET) Query all posts where user is author
+         ```swift
+         let query = PFQuery(className:"Post")
+         query.whereKey("author", equalTo: currentUser)
+         query.order(byDescending: "createdAt")
+         query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+            if let error = error { 
+               print(error.localizedDescription)
+            } else if let posts = posts {
+               print("Successfully retrieved \(posts.count) posts.")
+           // TODO: Do something with posts...
+            }
+         }
+         ```
+      - (Create/POST) Create a new like on a post
+      - (Delete) Delete existing like
+      - (Create/POST) Create a new comment on a post
+      - (Delete) Delete existing comment
+   - Create Post Screen
+      - (Create/POST) Create a new post object
+   - Profile Screen
+      - (Read/GET) Query logged in user object
+      - (Update/PUT) Update user profile image
