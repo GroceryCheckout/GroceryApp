@@ -69,7 +69,7 @@ Optional:
 
 ## Wireframes
 
-<img src="https://i.imgur.com/9CrjH1K.jpg" width=800><br>
+<img src="https://github.com/GroceryCheckout/GroceryApp/blob/main/WireFrame.jpg" width=800><br>
 
 
 ## Schema 
