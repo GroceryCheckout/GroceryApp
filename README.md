@@ -4,8 +4,9 @@
 
 ## Table of Contents
 1. [Overview](#Overview)
-1. [Product Spec](#Product-Spec)
-1. [Wireframes](#Wireframes)
+2. [Product Spec](#Product-Spec)
+3. [Wireframes](#Wireframes)
+4. [Schema](#Schema)
 
 ## Overview
 ### Description
@@ -103,26 +104,13 @@ Optional:
 ### Networking
 #### List of network requests by screen
    - Home Feed Screen
-      - (Read/GET) Query all posts where user is author
-         ```swift
-         let query = PFQuery(className:"Post")
-         query.whereKey("author", equalTo: currentUser)
-         query.order(byDescending: "createdAt")
-         query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
-            if let error = error { 
-               print(error.localizedDescription)
-            } else if let posts = posts {
-               print("Successfully retrieved \(posts.count) posts.")
-           // TODO: Do something with posts...
-            }
-         }
-         ```
-      - (Create/POST) Create a new like on a post
-      - (Delete) Delete existing like
-      - (Create/POST) Create a new comment on a post
-      - (Delete) Delete existing comment
-   - Create Post Screen
-      - (Create/POST) Create a new post object
+      - (Read/GET) Query all stores for user 
+      - (Create/POST) Create a new review for store 
+      - (Delete) Delete existing user review
+   - Grocery Item Screen
+      - (Read/GET) Query item information
+      - (Update/PUT) Update users cart with items
+
    - Profile Screen
       - (Read/GET) Query logged in user object
       - (Update/PUT) Update user profile image
