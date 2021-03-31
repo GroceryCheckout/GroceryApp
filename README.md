@@ -10,15 +10,15 @@
 
 ## Overview
 ### Description
-Grocery checkout app that enables quick checkout in the world of self serving stores and checkout free supermarkets. Keeps track of purchased items and potentially suggest items based on purchase date.
+Grocery checkout app that enables quick checkout in the world of self-serving stores and checkout-free supermarkets. Keeps track of purchased items and potentially suggests items based on the purchase date.
 
 ### App Evaluation
-- **Category:** Reatil
+- **Category:** Retail
 - **Mobile:** This app would be primarily developed for mobile
 - **Story:** Enables users to select purchased items for different stores and suggest items to purchase based on history.
 - **Market:** Any age group.
-- **Habit:** The apps suggestion feature would increase the frequency with which users use the app.
-- **Scope:** The app could be used in conjuction with existing mobile platforms for grocery retailers enabling users to purchase items and keep track of purchasing history accross different stores.
+- **Habit:** The app's suggestion feature would increase the frequency with which users use the app.
+- **Scope:** The app could be used in conjunction with existing mobile platforms for grocery retailers enabling users to purchase items and keep track of purchasing history across different stores.
 
 ## Product Spec
 ### 1. User Stories (Required and Optional)
@@ -28,7 +28,7 @@ Grocery checkout app that enables quick checkout in the world of self serving st
 * User logs in to access previous items bought and preference settings
 * User can select items to buy from a particular store.
 * Profile pages with purchase history of user
-* Settings (Accesibility, Notification, General, etc.)
+* Settings (Accessibility, Notification, General, etc.)
 
 **Optional Nice-to-have Stories**
 
@@ -39,14 +39,14 @@ Grocery checkout app that enables quick checkout in the world of self serving st
 ### 2. Screen Archetypes
 
 * Login 
-* Register - User signs up or logs into their account
-   * Upon Download/Reopening of the application, the user is prompted to log in to gain access to their profile information to acess various stores in the users vicinity. 
-* Stores Screen - Stores in the users vicinity ordered by distance
+* Register - User signs up or logs in to their account
+   * Upon Download/Reopening of the application, the user is prompted to log in to gain access to their profile information to access various stores in the user's vicinity. 
+* Stores Screen - Stores in the user's vicinity ordered by distance
    * Upon selecting store choice items screen opens
 * Profile Screen 
-   * Allows user to upload a photo and fill in relevant information (billing details etc.)
+   * Allows the user to upload a photo and fill in relevant information (billing details etc.)
 * Grocery Selection Screen.
-   * Allows user to be able to choose their desired items and add them to a cart.
+   * Allows the user to be able to choose their desired items and add them to a cart.
 * Settings Screen
    * Lets people change language, and app notification settings.
 
