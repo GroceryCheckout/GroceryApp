@@ -41,7 +41,6 @@ Grocery checkout app that enables quick checkout in the world of self serving st
 * Login 
 * Register - User signs up or logs into their account
    * Upon Download/Reopening of the application, the user is prompted to log in to gain access to their profile information to acess various stores in the users vicinity. 
-   * ...
 * Stores Screen - Stores in the users vicinity ordered by distance
    * Upon selecting store choice items screen opens
 * Profile Screen 
