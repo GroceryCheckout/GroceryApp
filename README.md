@@ -69,7 +69,6 @@ Optional:
 
 ## Wireframes
 
-**Example**
 <img src="https://i.imgur.com/9CrjH1K.jpg" width=800><br>
 
 
