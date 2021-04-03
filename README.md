@@ -45,6 +45,8 @@ Grocery checkout app that enables quick checkout in the world of self-serving st
    * Upon selecting store choice items screen opens
 * Profile Screen 
    * Allows the user to upload a photo and fill in relevant information (billing details etc.)
+* Camera Screen 
+   * Allows the user to take a photo for his/her profile
 * Grocery Selection Screen.
    * Allows the user to be able to choose their desired items and add them to a cart.
 * Settings Screen
