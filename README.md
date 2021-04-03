@@ -58,13 +58,14 @@ Grocery checkout app that enables quick checkout in the world of self-serving st
 
 * Store selection
 * Profile
+* Shopping cart
 * Settings
 
 Optional:
 * Discover (Suggested Choices)
 
 **Flow Navigation** (Screen to Screen)
-* Forced Log-in -> Account creation if no log in is available
+* Forced Log-in -> Account creation if no log in is available else store selection
 * Store Selection  -> Jumps to Grocery items
 * Profile -> Text field to be modified. 
 * Settings -> Toggle settings
@@ -99,6 +100,16 @@ Optional:
    | quantity      | Number   | intended purchase quantity |
    | discount      | String   | applicable discount  |
 
+
+
+#### Profile item 
+   
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | userId        | String   | unique id for each user (default field) |
+   | name          | String   | user name |
+   | image         | File     | photo of user |
+   | billing    | String   | billing details/address|
 
   
 ### Networking
