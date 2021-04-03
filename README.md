@@ -8,6 +8,7 @@
 3. [Wireframes](#Wireframes)
 4. [Schema](#Schema)
 
+
 ## Overview
 ### Description
 Grocery checkout app that enables quick checkout in the world of self-serving stores and checkout-free supermarkets. Keeps track of purchased items and potentially suggests items based on the purchase date.
@@ -25,10 +26,10 @@ Grocery checkout app that enables quick checkout in the world of self-serving st
 
 **Required Must-have Stories**
 
-* User logs in to access previous items bought and preference settings
-* User can select items to buy from a particular store.
-* Profile pages with purchase history of user
-* Settings (Accessibility, Notification, General, etc.)
+* [x] User logs in to access previous items bought and preference settings
+* [] User can select items to buy from a particular store.
+* [] Profile pages with purchase history of user
+* [] Settings (Accessibility, Notification, General, etc.)
 
 **Optional Nice-to-have Stories**
 
