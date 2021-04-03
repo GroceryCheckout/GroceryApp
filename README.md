@@ -49,6 +49,8 @@ Grocery checkout app that enables quick checkout in the world of self-serving st
    * Allows the user to be able to choose their desired items and add them to a cart.
 * Settings Screen
    * Lets people change language, and app notification settings.
+* Shopping cart Screen
+   * Lets users add items to cart for checkout.
 
 ### 3. Navigation
 
