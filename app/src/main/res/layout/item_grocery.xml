@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="6dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvStore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-387dp"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@id/ivReview"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp"
+        tools:text="Spring Onion" />
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:layout_below="@+id/tvStore"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:scaleType="centerCrop"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/ivReview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivImage"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="13dp"
+        app:srcCompat="@drawable/ufi_comment" />
+
+    <TextView
+        android:id="@+id/tvtiming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="25dp"
+        tools:text="Fresh spring onion from PA" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivImage"
+        android:layout_marginEnd="321dp"
+        android:layout_marginBottom="-26dp"
+        android:layout_toStartOf="@+id/ivReview"
+        android:text="$2/Kg" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="66dp"
+        android:layout_height="37dp"
+        android:layout_below="@+id/ivImage"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="36dp"
+        android:text="Add to Cart" />
+
+</RelativeLayout>
