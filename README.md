@@ -78,6 +78,10 @@ Optional:
 <img src="https://github.com/GroceryCheckout/GroceryApp/blob/main/WireFrame.jpg" width=800><br>
 
 
+## Gif for App
+
+<img src="https://github.com/GroceryCheckout/GroceryApp/blob/main/GroceryCheckout.gif" width=800><br>
+
 ## Schema 
 ### Models
 #### Store
